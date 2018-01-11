@@ -14,7 +14,7 @@ class HomeViewController: UIViewController,CarbonTabSwipeNavigationDelegate {
 //
     override func viewDidLoad() {
         super.viewDidLoad()
-        let items:[String] = ["Technologies","Design","Politics","Movies","Features", "Products", "About"]
+        let items:[String] = ["Technologies","Design","Politics","Movies","Features", "Products", "About","Sports","New Films", "Books", "Friends"]
          objCArray = NSMutableArray(array: items)
         let carbonTabSwipeNavigation = CarbonTabSwipeNavigation(items: items, delegate: self)
         carbonTabSwipeNavigation.insert(intoRootViewController: self)
